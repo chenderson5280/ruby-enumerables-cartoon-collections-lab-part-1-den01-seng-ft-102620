@@ -12,7 +12,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   count = 1
-  array.each_with_index do |i|
+  array.each do |i|
     puts "#{count}+#{i}"
     count +=1
   end
